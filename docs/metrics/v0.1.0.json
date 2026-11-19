@@ -1,0 +1,20 @@
+{
+  "recorded_at_utc": "2026-11-18T12:12:24.660208+00:00",
+  "commit": "cafb0bb835d9764ffecf7d688638d9eca7b180ef",
+  "ref": "refs/tags/v0.1.0",
+  "pipeline_url": "https://github.com/qkrlnt/web-log-reports/actions/runs/44301656108",
+  "scope": "coverage/complexity: src; lint: src/tests/scripts; tests: all tests",
+  "missing_reports": [],
+  "metrics": {
+    "lint_issues": 0,
+    "complexity_mean": 2.333,
+    "complexity_max": 4,
+    "line_coverage_percent": 100.0,
+    "branch_coverage_percent": 100.0,
+    "tests_passed": 23,
+    "tests_failed": 0,
+    "tests_errors": 0,
+    "tests_skipped": 0,
+    "test_seconds": 0.987
+  }
+}
