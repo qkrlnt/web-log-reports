@@ -82,10 +82,7 @@ jobs:
         if: ${{ always() }}
         run: |
           if [ -f reports/metrics.json ]; then
-            echo '## Quality metrics' >> "$GITHUB_STEP_SUMMARY"
-            echo '```json' >> "$GITHUB_STEP_SUMMARY"
-            cat reports/metrics.json >> "$GITHUB_STEP_SUMMARY"
-            echo '```' >> "$GITHUB_STEP_SUMMARY"
+            python scripts/render_metrics_summary.py
           fi
       - name: Upload test and metric reports
         if: ${{ always() }}

@@ -1,0 +1,89 @@
+{
+  "src/web_log_reports/main.py": [
+    {
+      "type": "function",
+      "rank": "A",
+      "complexity": 1,
+      "col_offset": 0,
+      "endline": 35,
+      "lineno": 14,
+      "name": "create_app",
+      "closures": [
+        {
+          "type": "function",
+          "rank": "A",
+          "complexity": 1,
+          "col_offset": 4,
+          "endline": 20,
+          "lineno": 19,
+          "name": "health",
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "complexity": 3,
+          "col_offset": 4,
+          "endline": 29,
+          "lineno": 23,
+          "name": "ingest",
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "complexity": 1,
+          "col_offset": 4,
+          "endline": 33,
+          "lineno": 32,
+          "name": "stats",
+          "closures": []
+        }
+      ]
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "complexity": 1,
+      "col_offset": 0,
+      "endline": 11,
+      "lineno": 10,
+      "name": "LogBatch",
+      "methods": []
+    }
+  ],
+  "src/web_log_reports/parser.py": [
+    {
+      "type": "function",
+      "rank": "A",
+      "complexity": 4,
+      "col_offset": 0,
+      "endline": 38,
+      "lineno": 25,
+      "name": "parse_line",
+      "closures": []
+    },
+    {
+      "type": "class",
+      "rank": "A",
+      "complexity": 1,
+      "col_offset": 0,
+      "endline": 22,
+      "lineno": 16,
+      "name": "LogRecord",
+      "methods": []
+    }
+  ],
+  "src/web_log_reports/analytics.py": [
+    {
+      "type": "function",
+      "rank": "A",
+      "complexity": 4,
+      "col_offset": 0,
+      "endline": 15,
+      "lineno": 8,
+      "name": "summarize",
+      "closures": []
+    }
+  ]
+}

@@ -97,7 +97,7 @@ git push -u origin main
 - `quality-reports-<run_id>-<attempt>` — metrics.json, junit.xml, coverage.xml, HTML-покрытие, ruff.json и complexity.json;
 - `dist-<run_id>-<attempt>` — wheel и sdist.
 
-JSON также выводится в **Summary** запуска. XML-отчёты сохраняются файлами; отдельные аннотации покрытия и интерфейс результатов тестов сторонними actions не подключены.
+В **Summary** запуска выводится таблица метрик с версией, commit и датой измерения. Полный JSON и XML-отчёты сохраняются в артефакте; отдельные аннотации покрытия и интерфейс результатов тестов сторонними actions не подключены.
 Срок хранения артефактов — 30 дней.
 
 Workflow запускается на push веток, push тегов, PR в main и вручную через workflow_dispatch.
